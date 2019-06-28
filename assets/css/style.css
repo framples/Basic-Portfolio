@@ -15,21 +15,38 @@ h1 {
     color: #4aaaa5;
 }
 
-.nav {
+.Nav {
     font-size: 10px;
-    color: #777777
+    color: #777777;
+    float: right;
 
 }
 
 body {
+    color: #777777;
     width: 960px;
     float: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: white;
+    width: 960px;
+    border: 5px solid #dddddd;
+    padding: 50px;
+    margin: 20px;
+      
 }
 
 .mainheader {
-    font-size: 14px;
+    font-size: 20px;
     color: white;
     background-color: teal;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 245px;
+    height: 135px;
+    text-align: center;
+}
+
+img {
+    height: 245px;
+    width: 245px;
+    float: left;
 }
