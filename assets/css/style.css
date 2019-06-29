@@ -28,6 +28,7 @@ h1 {
 .Nav {
     font-size: 10px;
     color: #777777;
+    float: right;
 
 }
 
@@ -52,6 +53,7 @@ main {
     width: 245px;
     height: 135px;
     text-align: center;
+    float: left;
 }
 
 img {
