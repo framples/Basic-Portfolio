@@ -28,19 +28,22 @@ h1 {
 .Nav {
     font-size: 10px;
     color: #777777;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+    float: right;
 
 }
 
 main {
     color: #777777;
-    width: 960px;
+    
     float: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: white;
     width: 960px;
     border: 1px solid #dddddd;
-    padding: 50px;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
       
 }
 
@@ -52,6 +55,8 @@ main {
     width: 245px;
     height: 135px;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -60,6 +65,8 @@ img {
     float: left;
     border-radius: 8%;
     transform: rotate(90deg);
+    position: relative;
+    
 }
 
 body {max-width: 960px;
@@ -70,3 +77,9 @@ hr {
     border-top: 3px double #777777;
     max-width: 960px;
 }
+
+.ow {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
